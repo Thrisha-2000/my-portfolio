@@ -1,0 +1,196 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: black;
+}
+
+.bg-image{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+
+
+    background: url(img7.jpg);
+}
+
+.back-box{
+    position: absolute;
+    width: 1127px;
+    height: 994px;
+    left: 163px;
+    top: 30px;
+    
+    background: rgba(2, 117, 103, 0.66);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.back-box .header-box{
+    position: absolute;
+    width: 1127px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(118, 239, 239, 0.48);
+}
+
+.back-box .header-box .logo{
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 35px;
+    top: 11px;
+
+    background: url(working.png);
+}
+
+.back-box .header-box .logo-name{
+    position: absolute;
+    width: 89px;
+    height: 53px;
+    left: 148px;
+    top: 31px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.back-box .header-box .home{
+    position: absolute;
+    width: 59px;
+    height: 26px;
+    left: 541px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+/* .back-box .header-box .line-under-home{
+    position: absolute;
+    width: 63px;
+    height: 6px;
+    left: 541px;
+    top: 75px;
+
+    background: #FA5E5E;
+} */
+
+.back-box .header-box .about{
+    position: absolute;
+    width: 67px;
+    height: 26px;
+    left: 656px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* .back-box .header-box .line-under-about{
+    position: absolute;
+    width: 67px;
+    height: 5px;
+    left: 656px;
+    top: 73px;
+
+    background: #FA5E5E;
+} */
+
+.back-box .header-box .contact{
+    position: absolute;
+    width: 90px;
+    height: 26px;
+    left: 779px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* .line-under-contact{
+    position: absolute;
+    width: 97px;
+    height: 5px;
+    left: 942px;
+    top: 185px;
+
+    background: #FA5E5E;
+} */
+
+.back-box .header-box .gallery{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 925px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.back-box .line-under-gallery{
+    position: absolute;
+    width: 97px;
+    height: 5px;
+    left: 923px;
+    top: 72px;
+
+    background: #FA5E5E;
+}
+
+
+.back-box .image{
+    border-radius: 25%;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left:20px;
+    top: 150px;
+    float: left;
+    margin: 40px 30px;
+    border: 3px solid white;
+}

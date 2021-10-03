@@ -1,0 +1,430 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: black;
+}
+
+.bg-image{
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: url(img7.jpg);
+}
+
+.back-box{
+    position: absolute;
+    width: 1127px;
+    height: 994px;
+    left: 163px;
+    top: 30px;
+    
+    background: rgba(2, 117, 103, 0.66);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.back-box .header-box{
+    position: absolute;
+    width: 1127px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(118, 239, 239, 0.48);
+}
+
+.back-box .header-box .logo{
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 35px;
+    top: 11px;
+
+    background: url(working.png);
+}
+
+.back-box .header-box .logo-name{
+    position: absolute;
+    width: 89px;
+    height: 53px;
+    left: 148px;
+    top: 31px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.back-box .header-box .home{
+    position: absolute;
+    width: 59px;
+    height: 26px;
+    left: 541px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+/* .back-box .header-box .line-under-home{
+    position: absolute;
+    width: 63px;
+    height: 6px;
+    left: 541px;
+    top: 75px;
+
+    background: #FA5E5E;
+} */
+
+.back-box .header-box .about{
+    position: absolute;
+    width: 67px;
+    height: 26px;
+    left: 656px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.back-box .header-box .line-under-about{
+    position: absolute;
+    width: 67px;
+    height: 5px;
+    left: 656px;
+    top: 73px;
+
+    background: #FA5E5E;
+}
+
+.back-box .header-box .contact{
+    position: absolute;
+    width: 90px;
+    height: 26px;
+    left: 779px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* .line-under-contact{
+    position: absolute;
+    width: 97px;
+    height: 5px;
+    left: 942px;
+    top: 185px;
+
+    background: #FA5E5E;
+} */
+
+.back-box .header-box .gallery{
+    position: absolute;
+    width: 88px;
+    height: 26px;
+    left: 925px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* .line-under-gallery{
+    position: absolute;
+    width: 97px;
+    height: 5px;
+    left: 1086px;
+    top: 182px;
+
+    background: #FA5E5E;
+} */
+
+.back-box .graduation-circle{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 44px;
+    top: 194px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.back-box .graduation-circle .graduation-icon{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 8px;
+    top: 19px;
+
+    font-family: Font Awesome 5 Free;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.back-box .education-box{
+    position: absolute;
+    width: 518px;
+    height: 290px;
+    left: 138px;
+    top: 174px;
+    /* background: rgba(118, 239, 239, 0.48); */
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+}
+
+.back-box .education-box .education-content{
+    position: absolute;
+    width: 525px;
+    height: 222px;
+    left: 49px;
+    top: 20px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: white;
+}
+
+.back-box .certificate-circle{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 44px;
+    top: 540px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.back-box .certificate-circle .certificate-icon{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 8px;
+    top: 16px;
+
+    font-family: Font Awesome 5 Free;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.back-box .skill-circle{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 707px;
+    top: 194px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.back-box .skill-circle .skill-icon{
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    left: 8px;
+    top: 19px;
+
+}
+
+.back-box .skill-box{
+    position: absolute;
+    width: 270px;
+    height: 290px;
+    left: 798px;
+    top: 174px;
+    /* background: rgba(118, 239, 239, 0.48); */
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+}
+.back-box .line-under-skill-icon{
+    position: absolute;
+    width: 3px;
+    height: 62px;
+    left: 735px;
+    top: 254px;
+
+    background: #FFFFFF;
+}
+
+.back-box .line-under-graduation-icon{
+    position: absolute;
+    width: 3px;
+    height: 62px;
+    left: 71px;
+    top: 254px;
+
+    background: #FFFFFF;
+}
+
+.back-box .skill-box .skill-content{
+    position: absolute;
+    width: 225px;
+    height: 222px;
+    left: 39px;
+    top: 20px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: white;
+}
+
+.back-box .skill-box .star-py{
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    left: 31px;
+    top: 44px;
+    color: gold;
+}
+
+.back-box .skill-box .star-java{
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    left: 31px;
+    top: 124px;
+    color: gold;
+}
+
+.back-box .skill-box .star-cplus{
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    left: 31px;
+    top: 194px;
+    color: gold;
+}
+
+.back-box .skill-box .star-c{
+    position: absolute;
+    width: 50px;
+    height: 26px;
+    left: 31px;
+    top: 244px;
+    color: gold;
+}
+
+.back-box .line-under-certificate-icon{
+    position: absolute;
+    width: 3px;
+    height: 62px;
+    left: 71px;
+    top: 586px;
+
+    background: #FFFFFF;
+}
+
+.back-box .certificate-box{
+    position: absolute;
+    width: 518px;
+    height: 270px;
+    left: 138px;
+    top: 526px;
+    /* background: rgba(118, 239, 239, 0.48); */
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+}
+
+.back-box .certificate-box .certificate-content{
+    position: absolute;
+    width: 525px;
+    height: 222px;
+    left: 49px;
+    top: 44px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    color: white;
+}
+
+.back-box .hobby-box{
+    position: absolute;
+    width: 938px;
+    height: 80px;
+    left: 138px;
+    top: 870px;
+    /* background: rgba(118, 239, 239, 0.48); */
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 50px;
+}
+
+.back-box .hobby-box .hobby-content{
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    left: 49px;
+    top: 20px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    word-spacing: 2px;
+    color: white;
+}
