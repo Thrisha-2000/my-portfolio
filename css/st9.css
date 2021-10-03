@@ -178,14 +178,14 @@ body{
     height: 92px;
     left: 240px;
     top: 183px;
-
+    border: 3px solid white;
     background: rgba(0, 0, 0, 0.35);
 }
 
 .back-box .phone-rectangle .phone-icon-rectangle{
     position: absolute;
     width: 121px;
-    height: 94px;
+    height: 91px;
     left: 0px;
     top: 0px;
 
@@ -215,17 +215,17 @@ body{
     height: 92px;
     left: 240px;
     top: 307px;
-
+    border: 3px solid white;
     background: rgba(0, 0, 0, 0.35);
 }
 
 .back-box .mail-rectangle .mail-icon-rectangle{
     position: absolute;
     width: 121px;
-    height: 94px;
+    height: 91px;
     left: 0px;
     top: 0px;
-
+    
     background: rgba(255, 255, 255, 0.65);
 }
 
@@ -295,7 +295,7 @@ body{
     font-family: IBM Plex Sans;
     color: #FFFFFF;
     text-align: center;
-
+    border: 3px solid white;
     background: rgba(0, 0, 0, 0.35);
 }
 
@@ -309,7 +309,7 @@ body{
     font-family: IBM Plex Sans;
     color: #FFFFFF;
     text-align: center;
-
+    border: 3px solid white;
     background: rgba(0, 0, 0, 0.35);
 }
 
@@ -322,5 +322,6 @@ body{
 
     background: rgba(255, 255, 255, 0.65);
     border-radius: 50px;
+    border: 3px solid black;
 }
 
