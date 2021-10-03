@@ -201,6 +201,7 @@ body{
     top: 447px;
 
     background: rgba(118, 239, 239, 0.48);
+    border: 4px solid white;
     border-radius: 50px;
 }
 
@@ -211,6 +212,7 @@ body{
     left: 589px;
     top: 334px;
     border-radius: 50%;
+    border: 4px solid white;
     background: url(IMG_20210930_192351.jpg);
 }
 
@@ -221,6 +223,7 @@ body{
     left: 256px;
     top: 363px;
     border-radius: 50%;
+    border: 3px solid black;
     background: #FFFFFF;
 }
 
@@ -231,6 +234,7 @@ body{
     left: 361px;
     top: 321px;
     border-radius: 50%;
+    border: 3px solid black;
     background: #FFFFFF;
 }
 
@@ -241,6 +245,7 @@ body{
     left: 480px;
     top: 309px;
     border-radius: 50%;
+    border: 3px solid black;
     background: #FFFFFF;
 }
 
@@ -248,8 +253,8 @@ body{
     position: absolute;
     width: 21px;
     height: 28px;
-    left: 16px;
-    top: 11px;
+    left: 13px;
+    top: 8px;
 
     font-family: Font Awesome 5 Brands;
     font-style: normal;
@@ -266,8 +271,8 @@ body{
     position: absolute;
     width: 15px;
     height: 30px;
-    left: 16px;
-    top: 6px;
+    left: 13px;
+    top: 3px;
 
     font-family: Font Awesome 5 Brands;
     font-style: normal;
@@ -283,8 +288,8 @@ body{
     position: absolute;
     width: 25px;
     height: 32px;
-    left: 18px;
-    top: 15px;
+    left: 15px;
+    top: 12px;
 
     font-family: Font Awesome 5 Brands;
     font-style: normal;
@@ -311,67 +316,3 @@ body{
     color: #FFFFFF;
 }
 
-.graduation-circle{
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    left: 207px;
-    top: 304px;
-    border-radius: 50%;
-    background: #FFFFFF;
-}
-
-.graduation-icon{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    left: 215px;
-    top: 323px;
-
-    font-family: Font Awesome 5 Free;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    /* identical to box height */
-
-
-    color: #000000;
-}
-
-.education-box{
-    position: absolute;
-    width: 700px;
-    height: 270px;
-    left: 301px;
-    top: 284px;
-    background: rgba(118, 239, 239, 0.48);
-    /* background: rgba(0, 0, 0, 0.65); */
-    border-radius: 50px;
-}
-
-.education-content{
-    position: absolute;
-    width: 525px;
-    height: 222px;
-    left: 370px;
-    top: 304px;
-
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-
-    color: white;
-}
-
-.certificate-circle{
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    left: 207px;
-    top: 700px;
-    border-radius: 50%;
-    background: #FFFFFF;
-}
